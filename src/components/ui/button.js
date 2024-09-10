@@ -1,9 +1,7 @@
-// Example Button component definition
-const Button = ({ children, onClick, className }) => (
+// File: ../components/ui/button.js
+export const Button = ({ children, onClick, className }) => (
     <button onClick={onClick} className={className}>
       {children}
     </button>
   );
-  
-  export default Button;
   
